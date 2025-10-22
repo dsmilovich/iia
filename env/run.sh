@@ -4,4 +4,5 @@ set -e
 
 REPO_DIR=$(pwd)
 
-docker run -p 8888:8888 -v "$REPO_DIR:/workspace" -w /workspace --rm -it python-ceia:1.0
+xhost +
+docker run -p 8888:8888 -v "$REPO_DIR:/workspace" -w /workspace --rm -it python-iia:1.0

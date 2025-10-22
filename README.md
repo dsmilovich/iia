@@ -1,3 +1,6 @@
+# Preliminares
+`$ git submodule update --init --recursive`
+
 # Preparación del ambiente Docker
 
 ## Build

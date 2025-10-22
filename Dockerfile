@@ -5,6 +5,8 @@ WORKDIR /workspace
 RUN apt-get update \
     && apt-get install -y build-essential \
     vim
+    
+ENV PYTHONPATH="/workspace/intro_ia/clase2/hanoi_tower/"
 
 COPY . .
 
